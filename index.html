@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Convite de casamento de Vanessa e Ronaldo.">
   <title>Vanessa e Ronaldo</title>
+  <link rel="icon" href="assets/icons/monogram-vr.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <div class="invite-shell">
     <section class="envelope-screen" aria-labelledby="envelope-title">
@@ -29,18 +32,12 @@
         <path d="M76 94C88 84 103 80 117 83" />
         <path d="M68 126C82 122 99 124 112 133" />
       </svg>
-
-      <header class="opening-header">
-        <p>CONVITE DE CASAMENTO</p>
-        <h1 id="envelope-title">Vanessa e Ronaldo</h1>
-      </header>
-
       <div class="envelope-stage">
         <div class="envelope-wrap">
           <div class="envelope" id="envelope" aria-hidden="true">
             <div class="envelope__back"></div>
             <div class="envelope__letter">
-              <span class="letter-monogram">VR</span>
+              <span class="letter-monogram">Convite de Casamento</span>
               <span class="letter-names">Vanessa e Ronaldo</span>
             </div>
             <div class="envelope__flap envelope__flap--top"></div>
@@ -50,29 +47,18 @@
           </div>
         </div>
 
-        <button class="seal-button js-open-invite" type="button" aria-label="Abrir convite de casamento" aria-controls="main-content" aria-expanded="false">
-          <span class="seal-button__mark" aria-hidden="true">VR</span>
+        <button class="seal-button js-open-invite" type="button" aria-label="Abrir convite de casamento"
+          aria-controls="main-content" aria-expanded="false">
+          <span class="seal-button__mark" aria-hidden="true">
+            <img src="./assets/icons/monogram-vr.svg" alt="" class="seal-button__monogram" />
+          </span>
         </button>
       </div>
 
-      <button class="open-call action-button js-open-invite" type="button" aria-controls="main-content" aria-expanded="false">
-        <span>Toque para abrir</span>
-        <span class="open-call__icon" aria-hidden="true"></span>
-      </button>
+      <span class="text-open-invite">Toque para abrir</span>
     </section>
 
     <main class="main-invite" id="main-content" tabindex="-1" hidden>
-      <section class="site-section hero-section reveal" aria-labelledby="couple-title">
-        <div class="section-inner hero-inner">
-          <p class="eyebrow">CONVITE DE CASAMENTO</p>
-          <h2 id="couple-title">Vanessa e Ronaldo</h2>
-          <p class="hero-subtitle">Vão se casar</p>
-          <p class="hero-date">Domingo | 06.09.2026 | 16h30</p>
-          <a class="scroll-indicator" href="#mensagem" aria-label="Rolar para a mensagem do convite">
-            <span></span>
-          </a>
-        </div>
-      </section>
 
       <section class="site-section message-section reveal" id="mensagem" aria-labelledby="message-title">
         <div class="section-inner narrow">
@@ -112,20 +98,13 @@
           <address>Rua Argentina, 25-25</address>
 
           <figure class="venue-illustration reveal">
-            <img
-              src="assets/images/local.jpeg"
+            <img src="assets/images/local.jpeg"
               alt="Ilustração em aquarela do espaço externo do Santa Felicidade Buffet e Eventos preparado para a cerimônia de casamento"
-              loading="lazy"
-              decoding="async"
-            >
+              loading="lazy" decoding="async">
           </figure>
 
-          <a
-            href="https://share.google/HFLpfR0DjHVuvvmRf"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="action-button"
-          >
+          <a href="https://share.google/HFLpfR0DjHVuvvmRf" target="_blank" rel="noopener noreferrer"
+            class="action-button">
             Ver localização
           </a>
         </div>
@@ -160,16 +139,13 @@
         <div class="section-inner narrow">
           <p class="section-kicker">UM GESTO DE CARINHO</p>
           <h2 id="gifts-title">Lista de presentes</h2>
-          <p>A presença de vocês será o nosso maior presente. Para quem desejar nos presentear, preparamos uma lista com muito carinho.</p>
+          <p>A presença de vocês será o nosso maior presente. Para quem desejar nos presentear, preparamos uma lista com
+            muito carinho.</p>
 
           <div class="gift-qr-wrapper">
             <div class="gift-qr-frame">
-              <img
-                src="assets/images/qrcode-lista-presentes-vanessa-ronaldo.png"
-                alt="QR Code para acessar a lista de presentes de Vanessa e Ronaldo"
-                loading="lazy"
-                decoding="async"
-              >
+              <img src="assets/images/qrcode-lista-presentes-vanessa-ronaldo.png"
+                alt="QR Code para acessar a lista de presentes de Vanessa e Ronaldo" loading="lazy" decoding="async">
             </div>
 
             <p class="gift-qr-instruction">
@@ -177,12 +153,8 @@
             </p>
           </div>
 
-          <a
-            href="https://noivos.casar.com/vanessa-ronaldo-2026-09-06#/presentes"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="action-button"
-          >
+          <a href="https://noivos.casar.com/vanessa-ronaldo-2026-09-06#/presentes" target="_blank"
+            rel="noopener noreferrer" class="action-button">
             Ver lista de presentes
           </a>
         </div>
@@ -199,4 +171,5 @@
 
   <script src="js/script.js" defer></script>
 </body>
+
 </html>
